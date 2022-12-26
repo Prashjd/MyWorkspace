@@ -15,31 +15,34 @@ public class RegistrationPage {
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(name="input-firstname")
+	@FindBy(id="input-firstname")
 	WebElement txtfirstname;
 	
-	@FindBy(name="input-lastname")
+	@FindBy(id="input-lastname")
 	WebElement txtlastname;
 	
-	@FindBy(name="input-email")
+	@FindBy(id="input-email")
 	WebElement enetrEmail;
 	
-	@FindBy(name="input-telephone")
+	@FindBy(id="input-telephone")
 	WebElement txttelephone;
 	
-	@FindBy(name="input-password")
+	@FindBy(id="input-password")
 	WebElement txtpassword;
 	
-	@FindBy(name="input-confirm")
+	@FindBy(id="input-confirm")
 	WebElement txtcnfpassword;
 	
-	@FindBy(xpath="input-confirm")
-	WebElement selectradio;
+	@FindBy(xpath="(//input[@name='newsletter'])[1]")
+	WebElement selectRadioBtnYes;
+	
+	@FindBy(xpath="(//input[@name='newsletter'])[2]")
+	WebElement selectRadioBtnNo;
 	
 	@FindBy(name="agree")
 	WebElement selectcheckbox;
 	
-	@FindBy(name="btn btn-primary")
+	@FindBy(xpath="(//input[@value='Continue'])")
 	WebElement btncontinue;
 	
 	//**************action methods**********************//
@@ -74,13 +77,23 @@ public class RegistrationPage {
 		txtcnfpassword.sendKeys(cnfpwd);
 	}
 	
-	public void selectNewsletterRadio()
+	public void selectNewsletterRadio(String value)
 	{
-		
-		selectradio.click();
+		if(value.equals("1"))
+		{
+			selectRadioBtnYes.click();
+		}
+		else if (value.equals("0"))
+		{
+			selectRadioBtnNo.click();
+		}
+		else                      //set default to No
+		{
+			selectRadioBtnNo.click();
+		}	
 	}
 	
-	public void selectcheckBox()
+	public void clickOncheckBox()
 	{
 		selectcheckbox.click();
 	}

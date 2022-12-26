@@ -1,0 +1,55 @@
+[INFO ] 2022-12-25 14:49:42.778 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 14:54:38.637 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 14:54:41.608 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:00:52.669 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:00:58.137 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:06:34.898 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:06:38.053 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:10:09.665 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:10:15.054 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:12:42.882 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:12:44.762 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:14:57.374 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:14:59.388 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:17:00.985 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:17:03.126 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:18:10.306 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:18:12.006 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 15:23:54.493 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 15:23:56.683 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 16:50:17.168 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 16:50:29.051 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 16:50:31.968 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 16:59:18.932 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 16:59:30.848 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:02:36.980 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:03:48.424 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:03:51.210 [main] MyStoreV1 - user details entered
+[INFO ] 2022-12-25 17:04:26.610 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:06:16.788 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:06:16.790 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:06:17.057 [main] MyStoreV1 - clicked On MyAccount Btn
+[INFO ] 2022-12-25 17:06:17.941 [main] MyStoreV1 - Testing log********************
+[INFO ] 2022-12-25 17:06:48.736 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:06:48.739 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:06:49.040 [main] MyStoreV1 - clicked On MyAccount Btn
+[INFO ] 2022-12-25 17:06:50.059 [main] MyStoreV1 - Testing log********************
+[INFO ] 2022-12-25 17:07:06.384 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:07:06.390 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:07:06.860 [main] MyStoreV1 - clicked On MyAccount Btn
+[INFO ] 2022-12-25 17:07:08.004 [main] MyStoreV1 - Testing log********************
+[INFO ] 2022-12-25 17:12:04.498 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:12:04.501 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:12:04.956 [main] MyStoreV1 - clicked On MyAccount Btn
+[INFO ] 2022-12-25 17:12:06.021 [main] MyStoreV1 - Testing log********************
+[INFO ] 2022-12-25 17:12:06.656 [main] MyStoreV1 - successfully clicked on my aacount page
+[INFO ] 2022-12-25 17:16:08.627 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:16:08.630 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:16:08.890 [main] MyStoreV1 - clicked On MyAccount Btn
+[INFO ] 2022-12-25 17:16:09.686 [main] MyStoreV1 - Testing log********************
+[INFO ] 2022-12-25 17:16:10.218 [main] MyStoreV1 - successfully clicked on my aacount page
+[INFO ] 2022-12-25 17:18:27.374 [main] MyStoreV1 - url opened
+[INFO ] 2022-12-25 17:18:27.378 [main] MyStoreV1 - ***VerifyLoginOfRegisteredCustomer test execution started***
+[INFO ] 2022-12-25 17:18:27.655 [main] MyStoreV1 - clicked On MyAccount Btn
+[INFO ] 2022-12-25 17:18:28.578 [main] MyStoreV1 - Testing log********************
+[INFO ] 2022-12-25 17:18:28.905 [main] MyStoreV1 - successfully clicked on my aacount page

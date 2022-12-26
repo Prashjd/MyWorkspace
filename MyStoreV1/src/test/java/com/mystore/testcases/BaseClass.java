@@ -2,6 +2,7 @@ package com.mystore.testcases;
 
 import java.time.Duration;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,7 @@ import org.testng.annotations.BeforeClass;
 import com.mystore.utilities.Readconfig;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import net.bytebuddy.utility.RandomString;
 
 public class BaseClass {
 
@@ -23,12 +25,19 @@ public class BaseClass {
 	String browser = readconfig.getBrowser();
 
 	public static WebDriver driver; // webdriver initialize
-	public static Logger logger;
+	public static Logger log;		// logger initialize
+	
+	//generate random name or emailId
+	public String generateRandomName()
+	{
+		return RandomStringUtils.randomAlphanumeric(5);
+	}
 	
 	@BeforeClass
 	public void setup() {
 
-		switch (browser.toLowerCase()) {
+		switch (browser.toLowerCase())
+		{
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -53,13 +62,13 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		// for logging
-		logger = LogManager.getLogger("MyStoreV1");
+		log = LogManager.getLogger("MyStoreV1");
 	}
 	
 	@AfterClass
-	public void teaDown() 
+	public void tearDown() 
 	{
-		driver.close();
+		//driver.close();
 		driver.quit();
 	}
 
